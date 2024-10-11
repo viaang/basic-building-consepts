@@ -11,9 +11,13 @@ pygame.display.update()
 
 done = False 
 
+if pygame.init == True :
+    pygame.quit
 while not done :
     for event in pygame.event.get() :
         if pygame.event == pygame.QUIT :
             done = True
+
+
 
 pygame.quit()
